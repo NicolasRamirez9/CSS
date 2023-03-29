@@ -1,0 +1,28 @@
+/* el id se refencia con # */
+#titulo {
+    color: tomato;
+}
+/*  las clases se referencian con '.'
+    a continuacion estoy dandole estilo a todas las clases que contengan la palabra 'especial' en su class*/
+p.especial {
+    color: mediumseagreen;
+}
+
+p.texto {
+    color: slateblue;
+}
+/* a continuacion estoy dandole estilo a todas las etiquetas div que contengan hijos 'p'*/
+div p {
+    color: fuchsia;
+}
+/* a continuacion estoy dandole estilo a todas las etiquetas div que contengan hijos 'h2' y 'h3*/
+div h2, div h3{
+    color: red;
+}
+/* con '*' voy a darle estilo a todo lo que este en mi HTML
+   este selector universal va a aplicar las propiedades unicamente si no fueron estas no fueron definidas por otros selectores */
+* {
+    font-size: 24px;
+    color: blue;
+}
+
